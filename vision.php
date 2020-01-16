@@ -3,10 +3,10 @@ if (isset($_POST['submit'])) {
 	if (isset($_POST['url'])) {
 		$url = $_POST['url'];
 	} else {
-		header("Location: cvision.php");
+		header("Location: index.php");
 	}
 } else {
-	header("Location: cvision.php");
+	header("Location: index.php");
 }
 ?>	
 <!doctype html>
@@ -86,7 +86,7 @@ if (isset($_POST['submit'])) {
         <h5 class="card-title">Hasil Analisis :</h5>
         <p id="analisis" class="card-text"></p>
         <p class="card-text"><small class="text-muted"><?php echo $url ?></small></p>
-		<a href="http://sub1ardit.azurewebsites.net/" class="btn btn-primary">Back</a>
+		<a href="http://sub2ardit.azurewebsites.net/" class="btn btn-primary">Back</a>
       </div>
     </div>
   </div>
