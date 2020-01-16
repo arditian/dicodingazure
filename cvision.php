@@ -6,8 +6,8 @@ use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=mydicoding;AccountKey=5S4PMNOPjXXOzKmxPqHkLFGNISk7EnppRqE6BPw7BPq2Dj/D9XENCArKBQfW/fAlsGzjjSlM/mNQXO1S/teOgw==;EndpointSuffix=core.windows.net";
-$containerName = "vision";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=dicodingardit;AccountKey=B1ix2w91IQqZEUQZnTLC8VVEP0hvHYK2Z2ye0uE8kRZ04f7FvxC5wlQ6hWQqW7/ndmc5MPm5qyH2X26eOAT/Dw==;EndpointSuffix=core.windows.net";
+$containerName = "dicodingcontainer";
 			
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) 
