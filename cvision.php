@@ -39,10 +39,10 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 <body>
 			
  <div class="jumbotron">
-  <h1 class="display-4">Computer Vision</h1>
-  <p class="lead">Analisis Image atau Gambar Menggunakan Computer Vision Azure.</p>
+  <h1 class="display-4">Submission 2 Dicoding</h1>
+  <p class="lead">Analisis Gambar Menggunakan Fungsi Computer Vision Azure.</p>
   <hr class="my-4">
-  <p>Pilih gambar lalu lakukan upload untuk menganalisis menggunakan fitur vision.</p>
+  <p>Pilih Gambar dan Upload untuk menganalisisnya menggunakan fitur vision.</p>
 <div class="starter-template">
 				<span class="border-top my-3"></span>
 			</div>
